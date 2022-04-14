@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity(), Navigator,
             exitProcess(1)
         }
         this.clickCountForExit++
-        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, getString(R.string.confirm_exit), Toast.LENGTH_SHORT).show()
         Handler(Looper.getMainLooper()).postDelayed({ clickCountForExit = 0 }, 3000)
     }
 

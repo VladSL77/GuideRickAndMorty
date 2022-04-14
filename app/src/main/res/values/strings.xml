@@ -43,4 +43,5 @@
     <string name="label_episode_details_characters">Characters:</string>
     <string name="label_episode">Episode:</string>
     <string name="label_air_date">Air date:</string>
+    <string name="confirm_exit">Please click BACK again to exit</string>
 </resources>
