@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context=".ui.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/main_grey"
+        app:layout_constraintBottom_toTopOf="@+id/tab_characters"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tab_characters"
+        android:layout_width="@dimen/main_tab_width_125"
+        android:layout_height="@dimen/main_tab_height_55"
+        android:background="@color/main_grey"
+        android:padding="@dimen/padding_20dp"
+        android:text="@string/label_characters"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tab_locations"
+        app:layout_constraintEnd_toStartOf="@+id/tab_locations"
+        app:layout_constraintStart_toStartOf="@+id/main_container"
+        app:layout_constraintTop_toTopOf="@+id/tab_locations" />
+
+    <TextView
+        android:id="@+id/tab_locations"
+        android:layout_width="@dimen/main_tab_width_125"
+        android:layout_height="@dimen/main_tab_height_55"
+        android:layout_marginStart="@dimen/margin_2dp"
+        android:layout_marginEnd="@dimen/margin_2dp"
+        android:layout_marginBottom="@dimen/margin_10dp"
+        android:background="@color/second_gray"
+        android:padding="@dimen/padding_20dp"
+        android:text="@string/label_locations"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tab_episodes"
+        app:layout_constraintStart_toEndOf="@+id/tab_characters" />
+
+    <TextView
+        android:id="@+id/tab_episodes"
+        android:layout_width="@dimen/main_tab_width_125"
+        android:layout_height="@dimen/main_tab_height_55"
+        android:background="@color/second_gray"
+        android:padding="@dimen/padding_20dp"
+        android:text="@string/label_episodes"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tab_locations"
+        app:layout_constraintEnd_toEndOf="@+id/main_container"
+        app:layout_constraintStart_toEndOf="@+id/tab_locations"
+        app:layout_constraintTop_toTopOf="@+id/tab_locations" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

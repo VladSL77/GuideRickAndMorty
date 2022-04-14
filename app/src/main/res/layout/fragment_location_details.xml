@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/padding_2dp"
+    android:background="@color/white"
+    tools:context=".ui.locationUi.FragmentLocationDetails">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/main_grey"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout_location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_location_detail_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding_2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/text_title_location_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/location_information"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout_location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_2dp"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/text_label_location_residents"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_location">
+
+        <TextView
+            android:id="@+id/text_label_location_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_name"
+            android:ems="5"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/margin_1dp"
+            android:layout_marginStart="@dimen/margin_1dp"
+            android:layout_marginBottom="@dimen/margin_1dp"
+            android:background="@color/main_background"
+            app:autoSizeMaxTextSize="@dimen/auto_size_max_text_14sp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/text_location_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/margin_1dp"
+            android:layout_marginEnd="@dimen/margin_1dp"
+            android:layout_marginBottom="@dimen/margin_1dp"
+            android:background="@color/main_background"
+            app:autoSizeMaxTextSize="@dimen/auto_size_max_text_14sp"
+            app:autoSizeTextType="uniform"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/text_label_location_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_type"
+            android:ems="5"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/margin_1dp"
+            android:layout_marginStart="@dimen/margin_1dp"
+            android:layout_marginBottom="@dimen/margin_1dp"
+            android:background="@color/main_background"
+            app:autoSizeMaxTextSize="@dimen/auto_size_max_text_14sp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/text_location_detail_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/margin_1dp"
+            android:layout_marginEnd="@dimen/margin_1dp"
+            android:layout_marginBottom="@dimen/margin_1dp"
+            android:background="@color/main_background"
+            app:autoSizeMaxTextSize="@dimen/auto_size_max_text_14sp"
+            app:autoSizeTextType="uniform"
+            tools:text="Type" />
+
+        <TextView
+            android:id="@+id/text_label_location_dimension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_dimension"
+            android:ems="5"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/margin_1dp"
+            android:layout_marginStart="@dimen/margin_1dp"
+            android:layout_marginBottom="@dimen/margin_1dp"
+            android:background="@color/main_background"
+            app:autoSizeMaxTextSize="@dimen/auto_size_max_text_14sp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/text_location_detail_dimension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/margin_1dp"
+            android:layout_marginEnd="@dimen/margin_1dp"
+            android:layout_marginBottom="@dimen/margin_1dp"
+            android:background="@color/main_background"
+            app:autoSizeMaxTextSize="@dimen/auto_size_max_text_14sp"
+            app:autoSizeTextType="uniform"
+            tools:text="Dimension" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/text_label_location_residents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_2dp"
+        android:padding="@dimen/padding_2dp"
+        android:text="@string/label_location_details_residents"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/rv_location_residents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout_location" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_location_residents"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_label_location_residents" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

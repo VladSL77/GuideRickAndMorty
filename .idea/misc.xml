@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Vlad/Andersen/FinalProjectRickAndMorty/app/src/main/res/layout/activity_main.xml" value="0.3546875" />
+        <entry key="..\:/Users/Vlad/Andersen/FinalProjectRickAndMorty/app/src/main/res/layout/character_main_item.xml" value="0.6" />
+        <entry key="..\:/Users/Vlad/Andersen/FinalProjectRickAndMorty/app/src/main/res/layout/fragment_character_main.xml" value="0.3546875" />
+        <entry key="..\:/Users/Vlad/Andersen/FinalProjectRickAndMorty/app/src/main/res/layout/fragment_main_characters.xml" value="0.3546875" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.149" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/drawable/ic_launcher_background.xml" value="0.149" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/drawable/ram_launcher_background.xml" value="0.1855" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/activity_main.xml" value="0.3061594202898551" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/character_episode_item.xml" value="0.3546875" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/character_main_item.xml" value="0.264" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/episode_character_item.xml" value="0.3546875" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/episode_main_item.xml" value="0.1" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/fragment_character_details.xml" value="0.264" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/fragment_character_main.xml" value="0.264" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/fragment_character_search.xml" value="0.4" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/fragment_episode_details.xml" value="0.3546875" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/fragment_episode_main.xml" value="0.3546875" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/fragment_episode_search.xml" value="0.3546875" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/fragment_location_details.xml" value="0.3546875" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/fragment_location_main.xml" value="0.348159509202454" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/fragment_location_search.xml" value="0.3546875" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/layout/location_main_item.xml" value="0.3546875" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1855" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1855" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/mipmap-anydpi-v26/ram_launcher.xml" value="0.1855" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/mipmap-anydpi-v26/ram_launcher_foreground.xml" value="0.149" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/mipmap-anydpi-v26/ram_launcher_foreground_round.xml" value="0.149" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMorty/app/src/main/res/mipmap-anydpi-v26/ram_launcher_round.xml" value="0.128" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMortyBackUp_01_04_2022/app/src/main/res/layout/character_main_item.xml" value="0.3546875" />
+        <entry key="..\:/Users/Vlad/Andersen/RickAndMortyBackUp_01_04_2022/app/src/main/res/layout/fragment_character_main.xml" value="0.3546875" />
+        <entry key="..\:/Users/Vlad/Desktop/RickAndMorty_BackUp0_10_04_22/app/src/main/res/layout/character_episode_item.xml" value="0.264" />
+        <entry key="..\:/Users/Vlad/Desktop/RickAndMorty_BackUp0_10_04_22/app/src/main/res/layout/character_main_item.xml" value="0.4" />
+        <entry key="..\:/Users/Vlad/Desktop/RickAndMorty_BackUp0_10_04_22/app/src/main/res/layout/fragment_character_details.xml" value="0.264" />
+        <entry key="..\:/Users/Vlad/Desktop/RickAndMorty_BackUp0_10_04_22/app/src/main/res/layout/fragment_character_main.xml" value="0.17249240121580547" />
+        <entry key="..\:/Users/Vlad/Desktop/RickAndMorty_BackUp_08_04_22/app/src/main/res/layout/activity_main.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/Vlad/Desktop/RickAndMorty_BackUp_08_04_22/app/src/main/res/layout/character_main_item.xml" value="0.264" />
+        <entry key="..\:/Users/Vlad/Desktop/RickAndMorty_BackUp_08_04_22/app/src/main/res/layout/fragment_character_main.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

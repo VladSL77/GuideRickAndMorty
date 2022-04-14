@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Guide \"Rick and Morty\"</string>
+
+    <string name="connection_error">Ошибка загрузки данных. Проверьте сетевое подключение и перезагрузите приложение</string>
+    <string name="label_characters">CHARACTERS</string>
+    <string name="refresh_data">Refresh Data</string>
+    <string name="label_search">SEARCH</string>
+    <string name="label_locations">LOCATIONS</string>
+    <string name="label_episodes">EPISODES</string>
+    <string name="start_search">start_search</string>
+    <string name="tools_text_name">Name</string>
+    <string name="character_information">CHARACTER INFORMATION</string>
+    <string name="location_information">LOCATION INFORMATION</string>
+    <string name="label_name">Name:</string>
+    <string name="label_species">Species:</string>
+    <string name="label_status">Status:</string>
+    <string name="label_gender">Gender:</string>
+    <string name="label_type">Type:</string>
+    <string name="label_origin">Origin:</string>
+    <string name="label_location">Location:</string>
+    <string name="label_dimension">Dimension:</string>
+    <string name="label_location_details_residents">Residents:</string>
+    <string name="label_character_details_episodes">Episodes:</string>
+    <string name="title_search">Enter the search data \n (if the field is empty, all results will be shown):</string>
+    <string name="hint_search_name">Name (the name of the character)</string>
+    <string name="hint_episode_search_name">Name (the name of the episode)</string>
+    <string name="hint_location_search_name">Name (the name of the location)</string>
+    <string name="hint_location_search_type">Type (the type of the location)</string>
+    <string name="hint_location_search_dimension">Dimension (the dimension in which the location is located)</string>
+    <string name="hint_episode_code_search_name">Code (the code of the episode)</string>
+    <string name="hint_episode_air_date_search_name">Air date (the air date of the episode)</string>
+    <string name="hint_search_status">Status (The status of the character: \'Alive\', \'Dead\' or \'unknown\')</string>
+    <string name="hint_search_species">Species (The species of the character)</string>
+    <string name="hint_search_type">Type (The type or subspecies of the character)</string>
+    <string name="hint_search_gender">Gender (The gender of the character: \'Female\', \'Male\', \'Genderless\' or \'unknown\')</string>
+    <string name="button_back">Button Back</string>
+    <string name="error_init_fragment_character_details">Character should be provided in args</string>
+    <string name="error_init_fragment_episode_details">Episode should be provided in args</string>
+    <string name="error_init_fragment_location_details">Location should be provided in args</string>
+    <string name="network_warning">Check your network connection</string>
+    <string name="query_warning">No data found. Try changing the query</string>
+    <string name="episode_information">EPISODE INFORMATION</string>
+    <string name="label_episode_details_characters">Characters:</string>
+    <string name="label_episode">Episode:</string>
+    <string name="label_air_date">Air date:</string>
+</resources>
